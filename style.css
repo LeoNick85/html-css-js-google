@@ -19,6 +19,7 @@ header {
 header ul li {
     display: inline-block;
     padding: 0px 8px;
+    position: relative;
 }
 
 #header-left {
@@ -36,6 +37,32 @@ button.login {
     padding: 8px 14px;
     border: 0px;
     border-radius: 2px;
+}
+
+.dropdown {
+    position: absolute;
+    background-color: white;
+    width: 357px;
+    height: 470px;
+    right: -85px;
+    top: 35px;
+    border: 2px solid grey;
+    border-radius: 15px;
+    padding: 3px;
+    overflow-y: auto;
+    display: none;
+}
+
+.icon-box {
+    float: left;
+    height: 110px;
+    width: 110px;
+    text-align: center;
+}
+
+.icon-box i {
+    padding: 30px 0px 7px 0px;
+    font-size: 45px;
 }
 
 .central-logo {
