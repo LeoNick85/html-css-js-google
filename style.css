@@ -18,6 +18,7 @@ header {
 
 header ul li {
     display: inline-block;
+    padding: 0px 8px;
 }
 
 #header-left {
@@ -27,4 +28,39 @@ header ul li {
 
 #header-right {
     padding: 16px;
+}
+
+button.login {
+    background-color: #4285f4;
+    color: white;
+    padding: 8px 14px;
+    border: 0px;
+    border-radius: 2px;
+}
+
+.central-logo {
+    text-align: center;
+    margin-top: 110px;
+}
+
+.search-text {
+    text-align: center;
+}
+
+.search-text input {
+    width: 500px;
+    padding: 8px;
+}
+
+.search-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button.search {
+    padding: 8px 12px;
+    background-color: lavender;
+    margin-right: 16px;
+    border: 0px;
+    border-radius: 5px;
 }
