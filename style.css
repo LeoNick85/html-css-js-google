@@ -31,9 +31,17 @@ header ul li {
     padding: 16px;
 }
 
-button.login {
+.btn-main {
     background-color: #4285f4;
     color: white;
+    padding: 8px 14px;
+    border: 0px;
+    border-radius: 2px;
+}
+
+.btn-alt {
+    background-color: white;
+    color: #4285f4;
     padding: 8px 14px;
     border: 0px;
     border-radius: 2px;
@@ -51,6 +59,7 @@ button.login {
     padding: 3px;
     overflow-y: auto;
     display: none;
+    z-index: 10;
 }
 
 .icon-box {
@@ -86,8 +95,58 @@ button.login {
 
 button.search {
     padding: 8px 12px;
-    background-color: lavender;
+    background-color: #f1f1f1;
     margin-right: 16px;
     border: 0px;
     border-radius: 5px;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    font-size: 12px;
+}
+
+#privacy-alert {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-top: 1px solid #dfdfdf;
+}
+
+#privacy-alert-left {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.fa-shield-alt {
+    color: #4285f4;
+    margin-right: 16px;
+    font-size: 45px;
+}
+
+#privacy-alert-right {
+    display: flex;
+    align-items: center;
+}
+
+#localization-alert {
+    border-top: 1px solid #dfdfdf;
+    background-color: #f1f1f1;
+    padding: 8px;
+}
+
+#colophon {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #dfdfdf;
+    background-color: #f1f1f1;
+    padding: 8px;
+}
+
+#colophon li {
+    display: inline-block;
+    margin-right: 8px;
 }
