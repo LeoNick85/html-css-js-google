@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+#header-left {
+    width: 30%;
+    padding: 16px;
+}
+
+#header-right {
+    padding: 16px;
+}
