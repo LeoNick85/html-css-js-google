@@ -81,6 +81,62 @@ header ul li {
     font-size: 45px;
 }
 
+.fa-user {
+    color: lightblue;
+}
+
+.fa-google {
+    color: #fbbc05;
+}
+
+.fa-map-marker-alt {
+    color: #34a853;
+}
+
+.fa-youtube {
+    color: #ff0000;
+}
+
+.fa-google-play {
+    color: #4992e8;
+}
+
+.fa-newspaper {
+    color: blue;
+}
+
+.fa-envelope {
+    color: #ea4335;
+}
+
+.fa-user-circle {
+    color: #4285f4;
+}
+
+.fa-google-drive {
+    color: orange;
+}
+
+.fa-calendar {
+    color: #4285f4;
+}
+
+.fa-language {
+    color: #4285f4;
+}
+
+.fa-images{
+    color: #ea4335;
+}
+
+.fa-video {
+    color: #4285f4;
+}
+
+.fa-tag {
+    color: #ea4335;
+}
+
 .central-logo {
     text-align: center;
     margin-top: 110px;
